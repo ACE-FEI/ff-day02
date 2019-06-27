@@ -1,0 +1,32 @@
+作业
+产品布局
+父元素宽度为1024px【800px】；
+一行放5列【列】，每列之间有间隔
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    ul {
+        list-style: none;
+    }
+    .products{
+        width:800px;
+        background-color: #ededed;
+    }
+    .products::after{
+        content:"";
+        display: block;
+        clear: both;
+    }
+    /*(800px-2*10px )/3=260px */
+    .products
+    </style>
+</head>
+<body>
+   
+</body>
+</html>
