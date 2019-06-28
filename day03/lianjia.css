@@ -1,0 +1,48 @@
+/* 重置样式 */
+html {
+    font-size: 14px;
+    color: #333333;
+
+}
+body {
+    margin: 0%
+}
+ul,h1,h2,h3 {
+ margin: 0%;
+ padding: 0%;
+}
+ul {
+    list-style: none;
+
+}
+a {
+    color: #333333;
+    text-decoration: none;
+
+}
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+    
+}
+.top_nav {
+height: 100px;
+
+}
+
+.top_nav.logo {
+float: left;
+font-size: 30px;
+color: #000000;
+}
+.top_nav.nav{
+    float: left;
+}
+
+.top_nav.nav> li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    line-height: 60px;
+
+}
