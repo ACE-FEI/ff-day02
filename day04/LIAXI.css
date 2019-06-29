@@ -1,0 +1,60 @@
+body{
+  margin: 0%;
+}
+u1,h1,h2,h3{
+  margin: 0%;
+  padding: 0%;
+}
+div{
+  display: block;
+}
+ul{
+  list-style: none;
+}
+a{
+  color: #333333;
+  text-decoration: none;
+  
+}
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  height: 45px;
+}
+/*顶部导航*/
+fast_nav{
+  font-size: 14px;
+  background: #ffffff;
+}
+.fast_nav > .wrapper::after {
+  content: "";
+   display: block;
+  clear: both;
+}
+.fast_nav.logo{
+  float: left;
+    width: 100px;
+    font-size: 13px;
+    line-height: 45px;
+    border-right :1px solid #ede7d8;
+     margin-left: 100px;
+    
+  
+
+}
+
+.nav>ul>li{
+  float: left;
+  width: 100px;
+font-size: 15px;
+
+  text-align: center;
+  line-height: 45px;;
+  cursor: pointer;
+  color: #807b7e;
+  border-right :1px solid #ede7d8;
+}
+.fast_nav .nav >ul > li:hover {
+  color: white;
+  background: #af0d10;
+}
